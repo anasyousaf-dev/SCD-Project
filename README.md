@@ -9,13 +9,13 @@ This project is implemented as an Eclipse Java project inside `SwingDemo/`.
 
 ## Project Structure
 
-- `/tmp/workspace/anasyousaf-dev/SCD-Project/SwingDemo/src`
+- `SwingDemo/src`
   - `LoginFrame.java` – login screen and email/required-field checks
   - `SignUpFrame.java` – account creation screen and validations
   - `LibraryIssueFrame.java` – main issue-book form, date/order checks, category selection
   - `*Exception.java` – custom validation exceptions
   - `LibraryIssueFrameTest.java` – JUnit test file for basic validation logic
-- `/tmp/workspace/anasyousaf-dev/SCD-Project/Document`
+- `Document`
   - test-case document (`.docx`)
 
 ## Features
@@ -40,7 +40,7 @@ This project is implemented as an Eclipse Java project inside `SwingDemo/`.
 
 1. Open Eclipse.
 2. Import existing project from:
-   - `/tmp/workspace/anasyousaf-dev/SCD-Project/SwingDemo`
+   - `SwingDemo/`
 3. Run `LoginFrame.java` (or `LibraryIssueFrame.java`) as a Java Application.
 
 ### Option 2: Command Line
@@ -48,7 +48,7 @@ This project is implemented as an Eclipse Java project inside `SwingDemo/`.
 From project root:
 
 ```bash
-cd /tmp/workspace/anasyousaf-dev/SCD-Project/SwingDemo
+cd SwingDemo
 javac src/EmptyFieldException.java src/InvalidDateException.java src/InvalidEmailException.java src/NullSelectionException.java src/LoginFrame.java src/SignUpFrame.java src/LibraryIssueFrame.java -d out
 java -cp out LoginFrame
 ```
